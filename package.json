@@ -2,15 +2,18 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipes application",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "author": "",
+  "author": "Razvan Constantin",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.77.5"
   }
 }
